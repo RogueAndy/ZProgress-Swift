@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8DBE5F1E2717E600900D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DBE5E1E2717E600900D9A /* AppDelegate.swift */; };
+		AB8DBE611E2717E600900D9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DBE601E2717E600900D9A /* ViewController.swift */; };
+		AB8DBE641E2717E600900D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8DBE621E2717E600900D9A /* Main.storyboard */; };
+		AB8DBE661E2717E600900D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8DBE651E2717E600900D9A /* Assets.xcassets */; };
+		AB8DBE691E2717E600900D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8DBE671E2717E600900D9A /* LaunchScreen.storyboard */; };
+		AB8DBE781E27189100900D9A /* ZSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DBE721E27189100900D9A /* ZSBaseViewController.swift */; };
+		AB8DBE7A1E27189100900D9A /* ZSBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DBE761E27189100900D9A /* ZSBaseTableViewCell.swift */; };
+		AB8DBE7D1E2718EA00900D9A /* ZProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DBE7C1E2718EA00900D9A /* ZProgressViewController.swift */; };
+		AB8DBE7F1E2718FD00900D9A /* ZProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DBE7E1E2718FD00900D9A /* ZProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB8DBE5B1E2717E600900D9A /* ZProgress-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZProgress-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8DBE5E1E2717E600900D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB8DBE601E2717E600900D9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB8DBE631E2717E600900D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB8DBE651E2717E600900D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB8DBE681E2717E600900D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB8DBE6A1E2717E600900D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8DBE721E27189100900D9A /* ZSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSBaseViewController.swift; sourceTree = "<group>"; };
+		AB8DBE761E27189100900D9A /* ZSBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSBaseTableViewCell.swift; sourceTree = "<group>"; };
+		AB8DBE7C1E2718EA00900D9A /* ZProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZProgressViewController.swift; sourceTree = "<group>"; };
+		AB8DBE7E1E2718FD00900D9A /* ZProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8DBE581E2717E600900D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB8DBE521E2717E600900D9A = {
+			isa = PBXGroup;
+			children = (
+				AB8DBE5D1E2717E600900D9A /* ZProgress-Swift */,
+				AB8DBE5C1E2717E600900D9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8DBE5C1E2717E600900D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8DBE5B1E2717E600900D9A /* ZProgress-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8DBE5D1E2717E600900D9A /* ZProgress-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				AB8DBE701E27189100900D9A /* ViewControllers */,
+				AB8DBE741E27189100900D9A /* Views */,
+				AB8DBE5E1E2717E600900D9A /* AppDelegate.swift */,
+				AB8DBE601E2717E600900D9A /* ViewController.swift */,
+				AB8DBE621E2717E600900D9A /* Main.storyboard */,
+				AB8DBE651E2717E600900D9A /* Assets.xcassets */,
+				AB8DBE671E2717E600900D9A /* LaunchScreen.storyboard */,
+				AB8DBE6A1E2717E600900D9A /* Info.plist */,
+			);
+			path = "ZProgress-Swift";
+			sourceTree = "<group>";
+		};
+		AB8DBE701E27189100900D9A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB8DBE711E27189100900D9A /* BaseViewControllers */,
+				AB8DBE7C1E2718EA00900D9A /* ZProgressViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB8DBE711E27189100900D9A /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB8DBE721E27189100900D9A /* ZSBaseViewController.swift */,
+			);
+			path = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		AB8DBE741E27189100900D9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB8DBE751E27189100900D9A /* BaseViews */,
+				AB8DBE7E1E2718FD00900D9A /* ZProgressView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB8DBE751E27189100900D9A /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				AB8DBE761E27189100900D9A /* ZSBaseTableViewCell.swift */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8DBE5A1E2717E600900D9A /* ZProgress-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8DBE6D1E2717E600900D9A /* Build configuration list for PBXNativeTarget "ZProgress-Swift" */;
+			buildPhases = (
+				AB8DBE571E2717E600900D9A /* Sources */,
+				AB8DBE581E2717E600900D9A /* Frameworks */,
+				AB8DBE591E2717E600900D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZProgress-Swift";
+			productName = "ZProgress-Swift";
+			productReference = AB8DBE5B1E2717E600900D9A /* ZProgress-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8DBE531E2717E600900D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dazhongge;
+				TargetAttributes = {
+					AB8DBE5A1E2717E600900D9A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZBB923YFHM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB8DBE561E2717E600900D9A /* Build configuration list for PBXProject "ZProgress-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8DBE521E2717E600900D9A;
+			productRefGroup = AB8DBE5C1E2717E600900D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8DBE5A1E2717E600900D9A /* ZProgress-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8DBE591E2717E600900D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8DBE691E2717E600900D9A /* LaunchScreen.storyboard in Resources */,
+				AB8DBE661E2717E600900D9A /* Assets.xcassets in Resources */,
+				AB8DBE641E2717E600900D9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8DBE571E2717E600900D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8DBE611E2717E600900D9A /* ViewController.swift in Sources */,
+				AB8DBE7D1E2718EA00900D9A /* ZProgressViewController.swift in Sources */,
+				AB8DBE7A1E27189100900D9A /* ZSBaseTableViewCell.swift in Sources */,
+				AB8DBE5F1E2717E600900D9A /* AppDelegate.swift in Sources */,
+				AB8DBE7F1E2718FD00900D9A /* ZProgressView.swift in Sources */,
+				AB8DBE781E27189100900D9A /* ZSBaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB8DBE621E2717E600900D9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8DBE631E2717E600900D9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB8DBE671E2717E600900D9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8DBE681E2717E600900D9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB8DBE6B1E2717E600900D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8DBE6C1E2717E600900D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB8DBE6E1E2717E600900D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZBB923YFHM;
+				INFOPLIST_FILE = "ZProgress-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogue.zlj.ZProgress-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB8DBE6F1E2717E600900D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZBB923YFHM;
+				INFOPLIST_FILE = "ZProgress-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogue.zlj.ZProgress-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8DBE561E2717E600900D9A /* Build configuration list for PBXProject "ZProgress-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8DBE6B1E2717E600900D9A /* Debug */,
+				AB8DBE6C1E2717E600900D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8DBE6D1E2717E600900D9A /* Build configuration list for PBXNativeTarget "ZProgress-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8DBE6E1E2717E600900D9A /* Debug */,
+				AB8DBE6F1E2717E600900D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8DBE531E2717E600900D9A /* Project object */;
+}
