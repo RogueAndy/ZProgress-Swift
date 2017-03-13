@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8209AC701E7678850014EF65 /* zprogress.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8209AC6F1E7678850014EF65 /* zprogress.gif */; };
 		AB8DBE5F1E2717E600900D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DBE5E1E2717E600900D9A /* AppDelegate.swift */; };
 		AB8DBE611E2717E600900D9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DBE601E2717E600900D9A /* ViewController.swift */; };
 		AB8DBE641E2717E600900D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8DBE621E2717E600900D9A /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8209AC6F1E7678850014EF65 /* zprogress.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = zprogress.gif; sourceTree = "<group>"; };
 		AB8DBE5B1E2717E600900D9A /* ZProgress-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZProgress-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8DBE5E1E2717E600900D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB8DBE601E2717E600900D9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		AB8DBE5D1E2717E600900D9A /* ZProgress-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				8209AC6F1E7678850014EF65 /* zprogress.gif */,
 				AB8DBE701E27189100900D9A /* ViewControllers */,
 				AB8DBE741E27189100900D9A /* Views */,
 				AB8DBE5E1E2717E600900D9A /* AppDelegate.swift */,
@@ -168,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8209AC701E7678850014EF65 /* zprogress.gif in Resources */,
 				AB8DBE691E2717E600900D9A /* LaunchScreen.storyboard in Resources */,
 				AB8DBE661E2717E600900D9A /* Assets.xcassets in Resources */,
 				AB8DBE641E2717E600900D9A /* Main.storyboard in Resources */,
@@ -352,6 +356,7 @@
 				AB8DBE6F1E2717E600900D9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
